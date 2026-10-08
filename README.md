@@ -4,7 +4,7 @@ An interactive Power BI report that tracks revenue, leads, conversion, order val
 
 > ⚠️ All data in this project is **synthetic (dummy) data** created for portfolio purposes. LearnSphere is not a real company.
 
-![Overview dashboard](Dashboard/01_overview.png)
+![Overview dashboard](Dashboards/01_overview.png)
 
 ---
 
@@ -49,7 +49,7 @@ This dashboard puts 3+ years of data (Apr 2023 – Jun 2026) on 3 interactive pa
 
 ## 🧱 Data model
 
-![Data model](Dashboard/04_data_model.png)
+![Data model](Dashboards/04_data_model.png)
 
 - `Date Table`: a shared calendar table, related to all fact tables
 - Fact tables: monthly revenue, source-wise leads and units, program-wise performance, CAC/cost
