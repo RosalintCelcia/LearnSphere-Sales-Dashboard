@@ -1,0 +1,41 @@
+{
+  "name": "LearnSphere Dark",
+  "dataColors": ["#3987E5", "#D95926", "#199E70", "#C98500", "#D55181", "#008300", "#9085E9", "#E66767"],
+  "good": "#0CA30C",
+  "neutral": "#C98500",
+  "bad": "#D03B3B",
+  "maximum": "#3987E5",
+  "center": "#383835",
+  "minimum": "#E66767",
+  "background": "#131316",
+  "foreground": "#F2F2F0",
+  "tableAccent": "#3987E5",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "title":   { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#F2F2F0" },
+    "header":  { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#F2F2F0" },
+    "label":   { "fontSize": 10, "fontFace": "Segoe UI", "color": "#A8A7A0" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#1C1C20" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#2A2A30" } }, "radius": 10 }],
+        "visualHeader": [{ "show": false }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#F2F2F0" } }, "fontSize": 13, "fontFamily": "Segoe UI Semibold", "alignment": "left" }],
+        "padding": [{ "top": 12, "bottom": 12, "left": 14, "right": 14 }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#131316" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#131316" } } }]
+      }
+    },
+    "lineChart":   { "*": { "categoryAxis": [{ "gridlineShow": false, "labelColor": { "solid": { "color": "#A8A7A0" } } }], "valueAxis": [{ "gridlineColor": { "solid": { "color": "#2A2A30" } }, "labelColor": { "solid": { "color": "#A8A7A0" } } }] } },
+    "columnChart": { "*": { "categoryAxis": [{ "gridlineShow": false, "labelColor": { "solid": { "color": "#A8A7A0" } } }], "valueAxis": [{ "gridlineColor": { "solid": { "color": "#2A2A30" } }, "labelColor": { "solid": { "color": "#A8A7A0" } } }] } },
+    "clusteredColumnChart": { "*": { "categoryAxis": [{ "gridlineShow": false, "labelColor": { "solid": { "color": "#A8A7A0" } } }], "valueAxis": [{ "gridlineColor": { "solid": { "color": "#2A2A30" } }, "labelColor": { "solid": { "color": "#A8A7A0" } } }] } },
+    "slicer": { "*": { "background": [{ "show": true, "color": { "solid": { "color": "#1C1C20" } } }], "items": [{ "fontColor": { "solid": { "color": "#F2F2F0" } }, "background": { "solid": { "color": "#1C1C20" } } }] } }
+  }
+}
