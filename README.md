@@ -84,7 +84,7 @@ DIVIDE ( [Marketing Spend] + [Sales Cost], [Total Revenue] )
 │   └── LearnSphere_Payment_Sheet.csv
 ├── theme/
 │   └── theme_LearnSphere_Dark.json
-├── images/
+├── Dashboards/
 │   ├── 01_overview.png
 │   ├── 02_source.png
 │   ├── 03_program.png
